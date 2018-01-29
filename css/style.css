@@ -1,0 +1,54 @@
+#main{
+    display: grid;
+    grid-area: c;
+    background-color: brown;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "l m n";
+}
+
+#menu{
+    grid-area: l;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(../images/articles.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#menu2{
+    grid-area: m;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(../images/livebeat_copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu3{
+    grid-area: n;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/aboutus_copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#text{
+    margin: 0 auto;
+    font-family: "helvetica";
+    font-size: 30px;
+    color: dimgrey;
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 160px;
+    box-shadow: 0 0 60px black;
+}

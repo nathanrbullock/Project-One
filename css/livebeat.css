@@ -1,0 +1,117 @@
+#main{
+    display: grid;
+    grid-area: c;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: "f g h"
+                         "i i i"
+}
+
+#menu{
+    height: 100%;
+    grid-area: f;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#menu2{
+    grid-area: g;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#menu3{
+    grid-area: h;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#text{
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+    font-family: "helvetica";
+    font-size: 20px;
+    color: dimgrey;
+}
+
+#text2{
+    margin-top: 0px;
+    font-family: "helvetica";
+    font-size: 40px;
+    font-weight: 300;
+    color: dimgrey;
+}
+
+#text3{
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+    font-family: "helvetica";
+    font-size: 15px;
+    color: dimgrey;
+}
+
+p {
+    font-family: "helvetica";
+    font-size: 15px;
+    color: dimgrey;
+}
+
+#body{
+    display: grid;
+    margin: 0 auto;
+    width:95%;
+    grid-area: i;
+    background-color: white;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "j j j j j j j"
+                         "k l m n o p q"
+}
+
+#week{
+    grid-area: j;
+    background-color: white;
+    text-align: center;
+}
+#currentweek{
+    background-color: white;
+    margin-top: 35px;
+}
+#day{
+    grid-area: k;
+    background-color: white;
+    text-align: center;
+}
+#day2{
+    grid-area: l;
+    background-color: white;
+    text-align: center;
+}
+#day3{
+    grid-area: m;
+    background-color: white;
+    text-align: center;
+}
+#day4{
+    grid-area: n;
+    background-color: white;
+    text-align: center;
+}
+#day5{
+    grid-area: o;
+    background-color: white;
+    text-align: center;
+}
+#day6{
+    grid-area: p;
+    background-color: white;
+    text-align: center;
+}
+#day7{
+    grid-area: q;
+    background-color: white;
+    text-align: center;
+}

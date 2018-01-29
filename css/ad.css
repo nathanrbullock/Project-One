@@ -1,0 +1,17 @@
+#ad1{
+    grid-area: b;
+    height: 80%;
+    background-image:url(../images/add1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#ad2{
+    grid-area: d;
+    height: 80%;
+    background-image:url(../images/add2.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}

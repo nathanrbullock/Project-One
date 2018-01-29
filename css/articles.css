@@ -1,0 +1,61 @@
+#main{
+    display: grid;
+    grid-area: c;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: "l m n"
+                         "o o o"
+}
+
+#menu{
+    height: 100%;
+    grid-area: l;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#menu2{
+    grid-area: m;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#menu3{
+    grid-area: n;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#text{
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+    font-family: "helvetica";
+    font-size: 20px;
+    color: dimgrey;
+}
+
+#body{
+    margin: 0 auto;
+    width:95%;
+    grid-area: o;
+    background-color: white;
+}
+
+#articlehead{
+    width: 70%;
+    background-color: white;
+    font-family: "helvetica neue";
+    font-size: 24px;
+    font-weight: 300;
+    color: dimgrey;
+}
+
+#articlebody{
+    width: 95%;
+    background-color: white;
+    font-family: "helvetica neue";
+    font-size: 15px;
+    color: dimgrey;
+}

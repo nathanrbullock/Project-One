@@ -1,0 +1,3 @@
+<div id="footertextleft">Copyright © 2018 L.A. Beat. All Rights Reserved. Hosted by <a style="text-decoration:none;" href="http://www.codewest.ca/">CodeWest.ca.</a></div>
+
+<div id="footertextright"><a style="text-decoration:none;" href="http://www.labeat.ca/index.php?option=com_content&view=article&id=355&Itemid=71">Advertising</a> | <a style="text-decoration:none;" href="http://www.labeat.ca/index.php?option=com_contact&view=contact&id=1&Itemid=29">Contact Us</a> | <a style="text-decoration:none;" href="http://www.codewest.ca/">Privacy Policy</a> | <a style="text-decoration:none;" href="http://www.codewest.ca/">Terms of Use</a></div>
